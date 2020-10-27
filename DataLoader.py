@@ -11,7 +11,8 @@ class DataLoader(object):
         data = []
         try:
             dataFile = open(self.filename, mode='r', encoding='utf-8')
-            data = json.load(dataFile)
+            for line in dataFile:
+                data.append(json.loads(line))
         finally:
-            dataFile.close
+            dataFile.close()
         return data
