@@ -28,22 +28,3 @@ Query the `students` collection to:
 **Ex 4**
 
 Delete documents with an empty name
-
-**Ex 5**
-
-Create a collection `subjects` and add the following documents:
-
-- `{"name":"Mathematics", "level":2, "Professor":"Mrs Pythagore"}`
-- `{"name":"Physics", "level":3, "Professor":"Mr Einstein"}`
-- `{"name":"Computer Sciences", "level":5, "Professor":"Mr Keyboard"}`
-
-Add the id of subject mathematics to the first third of the scores, Physics to the second third and Computer Sciences to the last third of the scores.
-
-Query the database to:
-- show the scores of Physics
-- show the scores of Mr Keyboard's students
-
-**Ex 6**
-
-- Calculate the mean of each suject and add it to the `subjects` collection
-- Calculate the mean of each suject by type and add it to the `subjects` collection
